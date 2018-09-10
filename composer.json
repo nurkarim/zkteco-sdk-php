@@ -1,13 +1,13 @@
 {
-    "name": "krinn/zk-attend",
+    "name": "zkteco-sdk-php",
     "description": "PHP Library for ZK Biometric Attendance",
     "keywords": ["ZKTeco", "Biometric", "Atendance"],
     "type": "library",
     "license": "LGPL-2.0-only",
     "authors": [
         {
-            "name": "Darshan",
-            "email": "networks@krinn.in"
+            "name": "Nur Karim",
+            "email": "nurkarim772@gmail.com"
         }
     ],
     "require": {
