@@ -58,4 +58,11 @@ Get  of users.
 getAttendance()
 Get  attendance log.
 
-``
+The role of user. The length of $role is 1 byte. Possible value of $role are:
+
+0 = LEVEL_USER
+2 = LEVEL_ENROLLER
+12 = LEVEL_MANAGER
+14 = LEVEL_SUPERMANAGER
+
+```
