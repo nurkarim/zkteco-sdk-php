@@ -23,3 +23,39 @@ $zk->disconnect();
 
 ?>
 ```
+#Data Structrure
+```
+Class ZKLibrary {
+    String ip;
+    Unsigned Short port;
+    Unsigned Long socket;
+    Unigned Long session_id;
+    String received_data;
+    String user_data[][];
+    String attendance_data[][];
+    Unsigned Long timeout_sec;
+    Unsigned Long timeout_usec;
+}
+```
+#Function
+```
+__construct($ip, $port)
+####Parameters
+$ip
+
+IP address of device.
+
+$port
+
+UDP port of device.
+
+disconnect()
+Function to disconnect from the device.
+
+getUser()
+Get  of users.
+
+getAttendance()
+Get  attendance log.
+
+``
