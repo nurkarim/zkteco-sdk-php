@@ -6,7 +6,7 @@ Web server must be connected to the attendance device via Local Area Network (LA
 
 The format of the data are: binary, string, and number. The length of the parameter and return value must be vary.
 # Example
-
+```
 <?php
 
  include("zklib/zklib.php");
@@ -22,3 +22,4 @@ $zk->enableDevice();
 $zk->disconnect();
 
 ?>
+```
