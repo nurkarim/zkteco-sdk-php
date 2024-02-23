@@ -116,7 +116,7 @@
                     $userid = explode( chr(0), $userid, 2);
                     $userid = $userid[0];
                     $name = explode(chr(0), $name, 3);
-                    $name = utf8_encode($name[0]);
+                    $name = iconv('ISO-8859-1', 'UTF-8', $name[0]);
                     $cardno = str_pad($cardno,11,'0',STR_PAD_LEFT);
                     
                     if ( $name == "" )
